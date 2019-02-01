@@ -6,7 +6,7 @@
     "inferno-scripts": "7.0.4"
   },
   "dependencies": {
-    "babel-plugin-inferno": "^1.9.0",
+    "babel-plugin-inferno": "^3.3.0",
     "bootstrap": "^3.3.7",
     "inferno": "^7.1.1",
     "inferno-component": "^7.1.1"
