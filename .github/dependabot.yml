@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "09:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: babel-plugin-inferno
+    versions:
+    - 6.0.5
+    - 6.1.1
+  - dependency-name: bootstrap
+    versions:
+    - 4.3.1
